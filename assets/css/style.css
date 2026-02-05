@@ -2869,8 +2869,20 @@ Google map
     font-size: 26px;
   }
   .titan-title-size-4 {
-    letter-spacing: 6px;
-    font-size: 28px;
+    letter-spacing: 2px;
+    font-size: 26px;
+    line-height: 1.25;
+  }
+  .titan-caption {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .caption-content {
+    padding: 0;
+  }
+  .navbar-custom .navbar-brand {
+    letter-spacing: 2px;
+    font-size: 20px;
   }
   /* Features */
   .features-item {
@@ -2932,6 +2944,23 @@ Google map
 }
 
 @media only screen and (max-width: 480px) {
+  .titan-title-size-1 {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  .titan-title-size-4 {
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  .titan-caption {
+    width: 100%;
+    padding: 0 14px;
+  }
+  .navbar-custom .navbar-brand {
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
   .work-item,
   .works-grid-3 .work-item,
   .works-grid-4 .work-item,
