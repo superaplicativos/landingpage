@@ -12,6 +12,12 @@ body {
   font: 400 12px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+main {
+  overflow-x: hidden;
 }
 
 img {
@@ -1262,6 +1268,7 @@ General Styles - Owlcarousel
   letter-spacing: 3px;
   font-size: 11px;
   transition: background, padding 0.4s ease-in-out 0s;
+  max-width: 100%;
 }
 
 .navbar a {
@@ -2798,6 +2805,19 @@ Google map
     margin-top: 1px;
     margin-bottom: 0;
   }
+  .navbar-custom .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-custom .navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-custom .navbar-brand {
+    max-width: 70%;
+    white-space: normal;
+    line-height: 1.2;
+  }
   .navbar-custom li > a:hover {
     background: rgba(255, 255, 255, 0.1) !important;
   }
@@ -2960,6 +2980,9 @@ Google map
   .navbar-custom .navbar-brand {
     letter-spacing: 1px;
     font-size: 18px;
+    max-width: 60%;
+    white-space: normal;
+    line-height: 1.15;
   }
   .work-item,
   .works-grid-3 .work-item,
