@@ -1,0 +1,33 @@
+Resumo do que foi desenvolvido
+
+- Landing page completa para o lançamento AMS Empreendimentos + Pininfarina em Florianópolis
+- Hero com imagem do empreendimento e overlay escuro para leitura do texto
+- Seções: Sobre, Diferenciais, Localização, Arquitetura, Lazer, Convite e Documentos
+- Formulário com envio de dados e anexos (comprovante de residência e documento pessoal)
+- Consentimento LGPD no fluxo do convite
+- Integração ClickSign via backend PHP com validação, criação de signatário e disparo de convite
+- Armazenamento local dos anexos enviados em php/uploads no servidor
+- Mensagens de sucesso e erro retornadas no próprio formulário para o usuário
+
+Arquivos principais para deploy
+
+- index.html
+- index_op_fullscreen_gradient_overlay.html
+- assets/ (css, js, libs, imagens)
+- pininfarina-florianopolis.jpg
+- php/clicksign_invite.php
+- entrega.txt
+
+SEO avançado que podemos implementar
+
+- Metas avançadas (Open Graph, Twitter Cards, canonical e geo tags)
+- Schema.org completo (Organization, Residence, Place, WebSite, BreadcrumbList)
+- Sitemap.xml e robots.txt com regras específicas para o domínio
+- Titles e descriptions por seção com estratégia de palavras‑chave local
+- Conteúdo modular com headings H1‑H3 bem distribuídos
+- Pré‑carregamento de fontes e imagens críticas (preload/prefetch)
+- Lazy‑loading para imagens secundárias e minificação de assets
+- HTML crítico inline e defer/async de scripts não essenciais
+- Compressão Brotli/Gzip e cache de longo prazo no servidor
+- Otimização de imagens para WebP/AVIF e tamanhos responsivos (srcset)
+- Core Web Vitals monitorados com métricas reais (LCP, CLS, INP)
